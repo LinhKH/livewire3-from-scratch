@@ -14,12 +14,13 @@ class UserDetails extends Component
     {
         return view('livewire.user-details');
     }
-    function save(){
+    function save()
+    {
         $this->validate([
-            'name'=>'required',
-            'email'=>'required|email',
-            'phone'=>'required',
-            'password'=>'required|min:8',
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'password' => 'required|min:8',
         ]);
         dd('saving');
     }

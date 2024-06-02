@@ -9,14 +9,14 @@ class NavBar extends Component
 {
 
     public $mode=false;
-    public $type='light';
+    public $type= 'Light';
     public function render()
     {
         //sleep(5);
         return view('livewire.nav-bar');
     }
 
-    function UpdatedMode(){
+    function updatedMode(){
         $this->mode !=$this->mode;
        if($this->mode){
          $this->type='Dark';

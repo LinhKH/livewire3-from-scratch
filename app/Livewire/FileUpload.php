@@ -14,7 +14,7 @@ class FileUpload extends Component
     #[Rule('required')]
     public $name;
 
-    #[Rule('file|mimes:pdf,doc,docx|max:2048')]
+    #[Rule('file|mimes:jpg,pdf,doc,docx|max:2048')]
     public $file;
 
     public $path;

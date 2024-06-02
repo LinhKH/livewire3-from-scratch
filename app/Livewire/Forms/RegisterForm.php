@@ -13,6 +13,6 @@ class RegisterForm extends Form
     #[Rule('required|email')]
     public $email;
 
-    #[Rule('required|min:9')]
+    #[Rule('required|min:8')]
     public $password;
 }

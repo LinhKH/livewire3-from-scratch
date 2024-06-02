@@ -11,7 +11,7 @@ class WireConfirm extends Component
         return view('livewire.wire-confirm');
     }
 
-    public function delete(){
-       
+    public function delete()
+    {
     }
 }

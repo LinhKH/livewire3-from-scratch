@@ -29,6 +29,6 @@ class CreatePatient extends Component
     #[On('create-patient-close')]
     public function close(){
         $this->reset();
-        $this->js("alert('create Patient modal  closed')");
+        $this->js("alert('create Patient modal closed')");
     }
 }

@@ -17,6 +17,6 @@ class JsComponent extends Component
         return <<<'JS'
             alert($wire.title.toUpperCase());
         JS;
-       // $this->js("alert('button clicked')");
+    //    $this->js("alert('button clicked')");
     }
 }

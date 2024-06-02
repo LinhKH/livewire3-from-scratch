@@ -13,6 +13,6 @@ class Transition extends Component
     }
 
     public function toggleAlert(){
-        $this->showAlert=($this->showAlert==true)?false:true;
+        $this->showAlert=!$this->showAlert;
     }
 }
